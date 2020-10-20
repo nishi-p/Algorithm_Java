@@ -7,6 +7,7 @@
 import java.util.Scanner;
 
 public class LinearSearch_Recursive {
+
     public static void main(String[] args) {
         int[] list = {52, 85, 5, 2, 66, 1, 59, 78, 105, 45, 31, 10, 280, 24};
         System.out.println("Enter the numeric element to search: ");
