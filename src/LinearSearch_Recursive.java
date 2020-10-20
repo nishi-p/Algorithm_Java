@@ -1,5 +1,5 @@
 /*
- * Linear Search Iterative Approach
+ * Linear Search Recursive Approach
  *
  * @author: Nishi Parameshwara
  **/
@@ -27,5 +27,7 @@ public class LinearSearch_Recursive {
         }
 
         search(list, low + 1, high, key);
+        //System.out.println("This will print in accordance with how many recursive calls were made i.e. the number of " +
+          //      "recursive calls freed from the stack space.");
     }
 }
