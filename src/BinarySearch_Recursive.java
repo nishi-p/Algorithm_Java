@@ -18,7 +18,10 @@ public class BinarySearch_Recursive {
 
     private static void search(int[] list, int low, int high, int key) {
         if (high < low) { //Base case
-            System.out.println("Element not present!");
+            //low -> lower index with smaller value than key and low + 1 -> higher index with higher value than key.
+            System.out.println("Element not present, but if present in this sorted array, it would be between indexes " +
+                    (low - 1) + " and " + low);
+            //System.out.println("Element not present!");
             return;
         }
 
