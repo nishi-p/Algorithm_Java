@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class BinarySearch_Iterative {
 
     public static void main(String[] args) {
-        int[] list = {52, 85, 5, 2, 66, 1, 59, 78, 105, 45, 31, 10, 280, 24};
+        int[] list = {1,2,5,10,24,31,45,52,59,66,78,85,105,280}; //sorted list
         System.out.println("Enter the numeric element to search: ");
         Scanner scan = new Scanner(System.in);
         int key = scan.nextInt();
@@ -21,7 +21,7 @@ public class BinarySearch_Iterative {
             int mid = (low + high) / 2;
             if (list[mid] == key) {
                 System.out.println("Element found at array index " + mid);
-                break;
+                return;
             } else {
                 if (key > list[mid]) {
                     low = mid + 1;
