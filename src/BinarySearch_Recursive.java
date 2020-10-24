@@ -1,5 +1,5 @@
 /*
- * Binary Search Recursive Approach
+ * Binary Search Recursive Approach (Divide and Conquer)
  *
  * @author: Nishi Parameshwara
  */
@@ -31,8 +31,10 @@ public class BinarySearch_Recursive {
         } else {
             if (key > list[mid]) {
                 search(list,mid + 1, high, key);
+                System.out.println("Recursive call 1 ends");
             } else {
                 search(list,low, mid - 1, key);
+                System.out.println("Recursive call 2 ends");
             }
         }
     }

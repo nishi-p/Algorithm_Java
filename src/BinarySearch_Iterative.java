@@ -1,5 +1,5 @@
 /*
- * Binary Search Iterative Approach
+ * Binary Search Iterative Approach (Divide and Conquer)
  *
  * @author: Nishi Parameshwara
  **/

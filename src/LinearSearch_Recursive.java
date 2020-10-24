@@ -1,5 +1,5 @@
 /*
- * Linear Search Recursive Approach
+ * Linear Search Recursive Approach (Divide and Conquer)
  *
  * @author: Nishi Parameshwara
  **/
