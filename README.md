@@ -2,6 +2,7 @@
 Algorithm Implementation
 
 - Selection Sort
+- Heap Sort
 - Bubble Sort
 - Insertion Sort
 
