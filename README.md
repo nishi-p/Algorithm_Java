@@ -13,3 +13,9 @@ Divide and Conquer
 - Binary Search Recursive
 - Merge Sort
 - Quick Sort
+
+Greedy Algorithms
+
+Dynamic Programming
+
+Graph
