@@ -40,6 +40,7 @@ public class MergeSort {
             //System.out.println("This happens second");
 
             merge(list1, left, right); //array reference for list 1 to left, right
+            //https://stackoverflow.com/questions/22648633/how-return-value-this-merge-sort
         }
         return list1;
     }
