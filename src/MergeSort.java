@@ -44,7 +44,7 @@ public class MergeSort {
         return list1;
     }
 
-    public static int[] merge(int[] list2, int[] left, int[] right) {
+    public static void merge(int[] list2, int[] left, int[] right) {
         int l = 0, m = 0, n = 0;
 
         //elements are sorted in the original list itself, so sorted list is worked on.
@@ -69,7 +69,6 @@ public class MergeSort {
         while (m < right.length){
             list2[n++] = right[m++];
         }
-
-        return list2;
+        //return list2; --> not needed as array reference is copied.
     }
 }
