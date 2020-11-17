@@ -39,13 +39,14 @@ public class QuickSort {
             }
 
             if(i < j) {
-                //swap
+                //left mark and right mark have not joined yet but change position to elements wrt to pivot in order to
+                //sort
                 int temp = list[i];
                 list[i] = list[j];
                 list[j] = temp;
             }
         }
-        //swap pivot value
+        //swap pivot value with right mark to get new pivot position
         int temp = list[low];
         list[low] = list[j];
         list[j] = temp;
