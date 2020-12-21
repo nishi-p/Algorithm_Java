@@ -1,5 +1,5 @@
 /*
- * Quick Sort
+ * Quick Sort (Divide and Conquer)
  *
  * @author: Nishi Parameshwara
  **/

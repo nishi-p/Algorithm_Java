@@ -1,5 +1,5 @@
 /*
- * Selection Sort
+ * Selection Sort (Divide and Conquer)
  *
  * @author: Nishi Parameshwara
  */

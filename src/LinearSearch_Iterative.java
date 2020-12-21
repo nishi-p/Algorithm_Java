@@ -1,5 +1,5 @@
 /*
- * Linear Search Iterative Approach (Divide and Conquer)
+ * Linear Search Iterative Approach
  *
  * @author: Nishi Parameshwara
  **/

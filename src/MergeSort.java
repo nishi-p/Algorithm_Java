@@ -26,6 +26,7 @@ public class MergeSort {
             int[] left = new int[mid];
             int[] right = new int[n - mid];
 
+            //Avoid copying into new arrays and just use indices to save time of O(n)
             for (int i = 0; i < mid; i++) {
                 left[i] = list1[i];
             }
