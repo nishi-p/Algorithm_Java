@@ -3,7 +3,9 @@ import java.math.BigInteger;
 
 /**
  * Karatsuba Multiplication (Divide and Conquer)
- * O(n^2)
+ * 3T(n/2) = O(n^2)
+ *
+ * @author Nishi Parameshwara
  */
 
 public class KaratsubaMultiplication {
