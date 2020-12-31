@@ -1,5 +1,5 @@
 # Algorithm_Java
-Algorithm Implementation
+Common Algorithm Design Paradigm Implementation Code in Java
 
 - Selection Sort
 - Heap Sort
@@ -13,6 +13,14 @@ Divide and Conquer
 - Binary Search Recursive
 - Merge Sort
 - Quick Sort
+- Counting Sort
+- Radix Sort
+- Bucket Sort
+- Karatsuba Multiplication
+- Matrix Iterative Multiplication
+- Matrix Recursive Multiplication
+- Strassen Subcubic Matrix Multiplication
+- Counting Inversions
 
 Greedy Algorithms
 
